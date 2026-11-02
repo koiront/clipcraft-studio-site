@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>プライバシーポリシー</title>
+    <meta
+      name="description"
+      content="ClipCraft Studio が Google アカウントから受け取る情報の扱い"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>プライバシーポリシー</h1>
+      <p class="lead">ClipCraft Studio（以下「このアプリ」）</p>
+
+      <h2>このアプリについて</h2>
+      <p>
+        このアプリは、運営者本人が自分の YouTube チャンネルの動画を作るために、本人のパソコンの中だけで使うアプリです。一般には公開・配布しておらず、ほかの人の Google アカウントのデータを扱うことはありません。
+      </p>
+
+      <h2>受け取る情報</h2>
+      <p>
+        Google アカウントで連携すると、YouTube Analytics API の読み取り専用の権限（<code>https://www.googleapis.com/auth/yt-analytics.readonly</code>）で、運営者本人のチャンネルについて次の情報を受け取ります。
+      </p>
+      <ul>
+        <li>動画ごとの集計値（再生数・視聴時間・平均視聴時間・平均視聴率・登録者の増減・共有数）</li>
+      </ul>
+      <p>
+        このほか、誰でも見られる公開情報（動画のタイトル・再生数・高評価数など）を YouTube Data API で取得します。
+      </p>
+
+      <h2>使い方</h2>
+      <ul>
+        <li>
+          受け取った情報は、運営者本人が自分の動画の成績を見比べ、次の動画づくりの参考にするためだけに使います。
+        </li>
+        <li>
+          傾向をまとめるために、集計値の一部（動画のタイトル・再生数・平均視聴率・登録者の増減など）を Google の生成 AI（Gemini API）に送ることがあります。
+        </li>
+        <li>広告・販売・ほかの目的には使いません。</li>
+      </ul>
+
+      <h2>保存と共有</h2>
+      <ul>
+        <li>
+          受け取った情報と連携のための鍵（トークン）は、運営者本人が管理する機器（パソコンと、そのバックアップ）にだけ保存します。
+        </li>
+        <li>
+          上の Gemini API への送信を除き、第三者に渡したり、販売したりしません。
+        </li>
+        <li>
+          このアプリが Google API から受け取った情報の利用と、ほかのアプリへの転送は、限定使用（Limited Use）の要件を含む
+          <a
+            href="https://developers.google.com/terms/api-services-user-data-policy"
+            >Google API サービスのユーザーデータに関するポリシー</a
+          >
+          に従います。
+        </li>
+      </ul>
+
+      <h2>連携の解除と削除</h2>
+      <ul>
+        <li>
+          アプリの成績ボードで連携を「解除」すると、保存している鍵と集計値を消します。
+        </li>
+        <li>
+          Google アカウントの
+          <a href="https://myaccount.google.com/connections"
+            >サードパーティ製のアプリとサービス</a
+          >
+          からも、いつでも連携を取り消せます。
+        </li>
+      </ul>
+
+      <h2>お問い合わせ</h2>
+      <p>
+        このページを置いている
+        <a href="https://github.com/koiront/clipcraft-studio-site/issues"
+          >GitHub のリポジトリ</a
+        >
+        の Issues からご連絡ください。
+      </p>
+
+      <h2>改定</h2>
+      <p>
+        内容を変えるときは、このページを更新します。<br />制定日: 2026年11月2日
+      </p>
+
+      <footer>
+        <a href="./">ClipCraft Studio</a>
+      </footer>
+    </main>
+  </body>
+</html>
